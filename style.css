@@ -8,10 +8,82 @@ h1 {
     font-size: 60px;
     margin-bottom: 24px;
     font-weight: 900;
+    margin-top: 0;
+}
+
+main > h4 {
+    font-family: sans-serif;
+    color: #46484C;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+main > p {
+    color:#46484C;
+    font-family: sans-serif;
 }
 
 button {
     background-color: #025157;
     color:#ffffff;
+}
+.header {
+    margin: 40px 20px 0;
+    font-size: 0;
+    font-family: sans-serif;
+    height: 45px;
+}
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+li {
+    display: inline;
+}
+main {
+    margin-top: 285px;
+    text-align: center;
+}
+.logo {
+    width: 20%;
+}
+
+.navBar {
+    width: 60%;
+    text-align: center;
+    color:#025157;
+}
+
+.navBar > ul {
+    padding-left: 0;
+}
+
+.navBar > ul > li {
+    margin: 0 25px;
+}
+.actions {
+    width: 20%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.actions > * {
+    margin: 0 10px;
+}
+
+.actionsSignIn {
+    color: #67b54b;
+    text-decoration: none;
+}
+
+.actions > button {
+    background-color: #67b54b;
+    color: #ffffff;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
 }
 
